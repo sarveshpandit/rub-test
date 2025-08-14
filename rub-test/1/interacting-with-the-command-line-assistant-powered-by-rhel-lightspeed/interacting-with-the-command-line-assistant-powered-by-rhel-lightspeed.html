@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Interacting with the Command-Line Assistant Powered by RHEL Lightspeed :: Introduction to RHEL Lightspeed</title>
+    <link rel="prev" href="../LABENV/index.html">
+    <link rel="next" href="understanding-the-role-of-command-line-assistant-in-rhel.html">
+    <meta name="generator" content="Antora 3.1.3">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.redhat.com" target="_blank"><img src="../../../_/img/redhat-logo.png" height="40px" alt="Red Hat"></a>
+      <a class="navbar-item" style="font-size: 24px; color: white" href="../../..">Introduction to RHEL Lightspeed</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://github.com/RedHatQuickCourses/REPLACEREPONAME/issues" target="_blank">Report Issues</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="rub-test" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Introduction to RHEL Lightspeed</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../LABENV/index.html">Lab Environment</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="interacting-with-the-command-line-assistant-powered-by-rhel-lightspeed.html">Interacting with the Command-Line Assistant Powered by RHEL Lightspeed</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="understanding-the-role-of-command-line-assistant-in-rhel.html">Understanding the role of command-line assistant in RHEL</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="utilizing-the-assistant-for-answering-rhel-related-questions.html">Utilizing the assistant for answering RHEL related questions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="using-the-assistant-for-troubleshooting-and-fixing-issues.html">Using the assistant for troubleshooting and fixing issues</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="analyzing-log-files-with-assistance-from-the-command-line-assistant.html">Analyzing log files with assistance from the command-line assistant</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="seeking-recommendations-for-system-configurations-and-enhancements.html">Seeking recommendations for system configurations and enhancements</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../rhel-lightspeed-intelligent-functionalities/rhel-lightspeed-intelligent-functionalities.html">RHEL Lightspeed Intelligent Functionalities</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../rhel-lightspeed-intelligent-functionalities/exploring-red-hat-knowledge-from-knowledge-centered-service-kcs-articles-through-the-assistant.html">Exploring Red Hat knowledge from Knowledge Centered Service (KCS) articles through the assistant</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../rhel-lightspeed-intelligent-functionalities/accessing-rhel-documentation-via-the-command-line-assistant.html">Accessing RHEL documentation via the command-line assistant</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../rhel-lightspeed-intelligent-functionalities/implementing-interactive-workflows-to-solve-issues-with-ai-driven-insights.html">Implementing interactive workflows to solve issues with AI-driven insights</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../hands-on-lab-leveraging-command-line-assistant-powered-by-rhel-lightspeed/hands-on-lab-leveraging-command-line-assistant-powered-by-rhel-lightspeed.html">Hands-On Lab: Leveraging Command-Line Assistant Powered by RHEL Lightspeed</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../hands-on-lab-leveraging-command-line-assistant-powered-by-rhel-lightspeed/setting-up-and-configuring-the-command-line-assistant-within-rhel-environment.html">Setting up and configuring the command-line assistant within RHEL environment</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../hands-on-lab-leveraging-command-line-assistant-powered-by-rhel-lightspeed/performing-practical-exercises-to-interact-with-the-assistant-for-various-system-tasks.html">Performing practical exercises to interact with the assistant for various system tasks</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../hands-on-lab-leveraging-command-line-assistant-powered-by-rhel-lightspeed/troubleshooting-real-world-issues-using-ai-driven-recommendations-from-the-assistant.html">Troubleshooting real-world issues using AI-driven recommendations from the assistant</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../appendix/appendix.html">Appendix</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Introduction to RHEL Lightspeed</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Introduction to RHEL Lightspeed</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Introduction to RHEL Lightspeed</a></li>
+    <li><a href="interacting-with-the-command-line-assistant-powered-by-rhel-lightspeed.html">Interacting with the Command-Line Assistant Powered by RHEL Lightspeed</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Interacting with the Command-Line Assistant Powered by RHEL Lightspeed</h1>
+<div class="ulist">
+<ul>
+<li>
+<p>The command-line assistant powered by RHEL Lightspeed aids users in interacting with Red Hat Enterprise Linux (RHEL) via the command line.</p>
+</li>
+<li>
+<p>It simplifies tasks for both novice and experienced users, offering assistance with RHEL-related queries, troubleshooting, log analysis, and system configuration enhancements.</p>
+</li>
+<li>
+<p>Users can engage with the assistant by asking questions in plain language, without needing to use complex commands or direct internet connectivity on their RHEL systems.</p>
+</li>
+<li>
+<p>The assistant can help interpret command outputs and suggest further steps for problem resolution.</p>
+</li>
+<li>
+<p>It facilitates interactive workflows by providing AI-driven insights and suggestions, enabling users to solve issues and implement new RHEL features efficiently.</p>
+</li>
+<li>
+<p>Remember that while the assistant is helpful, it&#8217;s essential to verify AI-generated responses for accuracy before applying them, as warned by Red Hat.</p>
+</li>
+</ul>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="../LABENV/index.html">Lab Environment</a></span>
+  <span class="next"><a href="understanding-the-role-of-command-line-assistant-in-rhel.html">Understanding the role of command-line assistant in RHEL</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <img src="../../../_/img/rhl-logo-red.png" height="40px" alt="Red Hat"  href="https://redhat.com" >
+</footer><script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
