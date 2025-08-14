@@ -1,0 +1,4 @@
+* xref:rhel-lightspeed-intelligent-functionalities.adoc[]
+** xref:exploring-red-hat-knowledge-from-knowledge-centered-service-kcs-articles-through-the-assistant.adoc[]
+** xref:accessing-rhel-documentation-via-the-command-line-assistant.adoc[]
+** xref:implementing-interactive-workflows-to-solve-issues-with-ai-driven-insights.adoc[]

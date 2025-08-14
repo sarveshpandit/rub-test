@@ -1,0 +1,66 @@
+#  Setting up and configuring the command-line assistant within RHEL environment
+
+== Setting Up and Configuring the Command-Line Assistant within RHEL Environment
+
+To effectively leverage the command-line assistant powered by RHEL Lightspeed, you first need to install and configure it within your Red Hat Enterprise Linux (RHEL) 10 environment. Follow this step-by-step guide to accomplish this task:
+
+### Prerequisites
+Before proceeding with the setup, ensure that:
+
+1. You have root or sudo privileges on the RHEL system.
+2. The RHEL system is registered with Red Hat Subscription Management and connected to the Red Hat Network (RHN) or Red Hat Insights.
+3. The necessary repositories are enabled for installing the required packages. For instance, you may need to enable the `rhel-8-for-x86_64-appstream-rpms` and `rhel-8-for-x86_64-baseos-rpms` repositories.
+
+### Step 1: Install Required Packages
+
+Use the `yum` package manager to install the required packages for the command-line assistant:
+
+```bash
+sudo yum install -y command-line-assistant rhel-lightspeed-client
+```
+
+This command installs the `command-line-assistant` and `rhel-lightspeed-client` packages, which provide the necessary components to run the command-line assistant within your RHEL environment.
+
+### Step 2: Configure the Command-Line Assistant
+
+The command-line assistant does not require extensive configuration as it leverages AI-driven insights from Red Hat's knowledge base and system logs. However, you can customize its behavior by modifying the default settings if needed.
+
+1. Open the main configuration file for editing with a text editor, such as `vi` or `nano`:
+
+   ```bash
+   sudo vi /etc/rhel-lightspeed/config.yaml
+   ```
+
+2. Review and modify the following key settings according to your preferences:
+
+   - **analytics_enabled**: Set to true or false to enable or disable data collection for improving RHEL Lightspeed functionalities (default is `true`).
+   
+   - **log_level**: Configure the log level for debugging purposes, with possible values like DEBUG, INFO, WARNING, ERROR, and CRITICAL (default is `INFO`).
+
+   - **logs_retention_days**: Set the number of days to retain logs before they are automatically deleted (default is `30`).
+
+3. Save your changes and exit the text editor.
+
+### Step 3: Enable and Start the Command-Line Assistant Service
+
+After configuring settings, ensure that the command-line assistant service runs correctly by enabling and starting it:
+
+```bash
+sudo systemctl enable --now rhel-lightspeed-client
+```
+
+### Step 4: Verify Installation and Configuration
+
+To confirm that the command-line assistant is successfully set up and running, check its status:
+
+```bash
+sudo systemctl status rhel-lightspeed-client
+```
+
+You should see an active (running) status along with relevant information.
+
+### Step 5: Interact with the Command-Line Assistant
+
+With the setup complete, you can now start interacting with the command-line assistant to ask questions, troubleshoot issues, and seek recommendations for system configurations. Refer to the next section of this content, "Interacting with the Command-Line Assistant Powered by RHEL Lightspeed," for detailed guidance on using the assistant effectively.
+
+This step-by-step guide enables you to set up and configure the command-line assistant within your RHEL environment, allowing you to harness AI-driven expertise for configuration, management, and troubleshooting tasks.

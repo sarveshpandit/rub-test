@@ -1,0 +1,38 @@
+#  Utilizing the assistant for answering RHEL related questions
+
+== Utilizing the Assistant for Answering RHEL Related Questions
+
+The command-line assistant powered by RHEL Lightspeed is designed to help you find answers to various RHEL-related queries efficiently. You can utilize this tool to gain insights into diverse aspects of Red Hat Enterprise Linux, including but not limited to:
+
+- Understanding system components and their functions
+- Finding information on specific commands or utilities
+- Getting explanations for error messages or warnings encountered during operations
+- Learning how to perform particular tasks using RHEL tools
+
+To use the assistant for answering questions, follow these steps:
+
+1. **Launch the command-line assistant**: Use the 'c' command followed by your question enclosed in quotation marks as demonstrated below.
+   ```
+   $ c "Explain the purpose of the systemctl command"
+   ```
+2. **Phrase your query clearly and concisely**: Use natural language to ask questions, avoiding overly complex jargon or technical terms that may confuse the assistant.
+3. **Review and validate answers**: The AI-powered assistant provides suggestions based on its knowledge base. However, always verify these responses for accuracy before applying any recommendations in your system environment. Remember not to rely solely on AI output; human review is essential to ensure correctness and relevance to your specific situation.
+
+Here are some examples of questions you can ask the command-line assistant:
+
+- *Understanding RHEL concepts*:
+  ```
+  $ c "What is a systemd service unit file?"
+  ```
+
+- *Command usage*:
+  ```
+  $ c "How do I list all running containers in RHEL 8?"
+  ```
+  
+- *Troubleshooting error messages*:
+  ```
+  $ c "I get 'Failed to connect to the repository' while using yum. How can I resolve this issue?"
+  ```
+
+By following these guidelines, you can effectively utilize the command-line assistant powered by RHEL Lightspeed to answer your RHEL-related questions, thereby gaining a deeper understanding of the system and learning how to address various challenges efficiently.

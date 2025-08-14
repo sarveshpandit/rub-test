@@ -1,10 +1,14 @@
-name: REPLACEREPONAME
-title: FIXME Course Title
+name: rub-test
+title:  Introduction to RHEL Lightspeed
 version: 1
 nav:
 - modules/ROOT/nav.adoc
 - modules/LABENV/nav.adoc
-- modules/chapter1/nav.adoc
-- modules/chapter2/nav.adoc
-- modules/chapter3/nav.adoc
+
+- modules/interacting-with-the-command-line-assistant-powered-by-rhel-lightspeed/nav.adoc
+
+- modules/rhel-lightspeed-intelligent-functionalities/nav.adoc
+
+- modules/hands-on-lab-leveraging-command-line-assistant-powered-by-rhel-lightspeed/nav.adoc
+
 - modules/appendix/nav.adoc

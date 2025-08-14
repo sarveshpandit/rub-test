@@ -1,0 +1,35 @@
+#  Accessing RHEL documentation via the command-line assistant
+
+=== Accessing RHEL Documentation via the Command-Line Assistant ===
+
+With the command-line assistant powered by RHEL Lightspeed, users can easily access Red Hat Enterprise Linux (RHEL) documentation to find solutions for their system issues or to learn more about specific features and functionalities. Here's how you can leverage this functionality:
+
+#### Accessing Documentation
+
+1. **Invoke the Command-Line Assistant**: Start by activating the command-line assistant within your RHEL environment using the following syntax:
+   ```
+   c "Your_query"
+   ```
+   In this case, since we're focusing on accessing documentation, replace `Your_query` with relevant keywords such as "documentation", "manual", or a specific topic you need information about.
+
+2. **Request Documentation**: When prompted, enter your query to request RHEL-related documentation:
+   ```
+   c "Provide me the RHEL documentation for configuring network interfaces"
+   ```
+
+3. **Reviewing Results**: The command-line assistant will process your request and present you with relevant links or excerpts from the official Red Hat documentation directly within your terminal session. Follow these links to explore detailed guides, configuration examples, and troubleshooting information.
+
+#### Example Interaction
+
+Here's a sample interaction demonstrating how to use the command-line assistant to access RHEL documentation:
+
+```shell
+$ c "How do I configure network interfaces in RHEL 10?"
+
+Assistant: Here are some relevant resources for configuring network interfaces in RHEL 10:
+
+1. [RHEL 10 Network Configuration Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/10/html/configuring_and_managing_networking/index)
+2. [Configuring a Bonded Interface Using the Command Line](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/10/html-single/managing_systems_with_the_network_command_line_interface/index#configuring-a-bonded-interface-using-the-command-line_manage-networking-online-documentation)
+```
+
+By using the command-line assistant to access RHEL documentation, you streamline your research process and can quickly find accurate, official guidance without navigating away from your current terminal session. Remember to always verify the information in context with other resources or consult with experts for critical system configurations or troubleshooting.

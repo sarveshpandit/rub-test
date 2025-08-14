@@ -1,0 +1,9 @@
+#  RHEL Lightspeed Intelligent Functionalities
+
+- **RHEL Lightspeed Intelligent Functionalities** empower users to manage their Red Hat Enterprise Linux (RHEL) systems more efficiently, regardless of their experience level.
+   - This functionality harnesses the vast Red Hat knowledge from Knowledge Centered Service (KCS) articles and RHEL documentation, making it readily accessible via the command-line assistant.
+   
+- Users can explore these resources to find information, solve issues, implement new features, and get AI-driven insights through interactive workflows.
+   - The command-line assistant, powered by WatsonX AI API's Large Language Model (LLM), facilitates seamless access to external SaaS infrastructure for intelligent assistance.
+   
+- With RHEL Lightspeed, users can leverage artificial intelligence to configure, manage, and troubleshoot their RHEL systems with greater ease and efficiency.

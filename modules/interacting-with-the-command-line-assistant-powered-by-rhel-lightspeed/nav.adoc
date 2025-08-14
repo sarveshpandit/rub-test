@@ -1,0 +1,6 @@
+* xref:interacting-with-the-command-line-assistant-powered-by-rhel-lightspeed.adoc[]
+** xref:understanding-the-role-of-command-line-assistant-in-rhel.adoc[]
+** xref:utilizing-the-assistant-for-answering-rhel-related-questions.adoc[]
+** xref:using-the-assistant-for-troubleshooting-and-fixing-issues.adoc[]
+** xref:analyzing-log-files-with-assistance-from-the-command-line-assistant.adoc[]
+** xref:seeking-recommendations-for-system-configurations-and-enhancements.adoc[]

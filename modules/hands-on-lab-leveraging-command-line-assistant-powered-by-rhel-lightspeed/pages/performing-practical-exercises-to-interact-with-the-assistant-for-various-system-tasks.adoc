@@ -1,0 +1,66 @@
+#  Performing practical exercises to interact with the assistant for various system tasks
+
+== Hands-On Lab: Leveraging Command-Line Assistant Powered by RHEL Lightspeed
+
+=== Performing Practical Exercises to Interact with the Assistant for Various System Tasks
+
+In this hands-on lab, you will learn how to use the command-line assistant powered by RHEL Lightspeed to perform various system tasks and troubleshoot issues. Here are some practical exercises designed to help you get comfortable using the assistant:
+
+1. **Ask a basic question about RHEL**
+
+   Open your terminal and issue the following command, replacing "question" with an actual query related to RHEL:
+   ```bash
+   c "What is [specific RHEL topic]?"
+   ```
+   For example:
+   ```bash
+   c "What is RHEL Subscription Management?"
+   ```
+
+2. **Troubleshoot a simple issue**
+
+   Pretend you're experiencing connectivity problems with your network. Use the command-line assistant to get suggestions on diagnosing and resolving this issue:
+   ```bash
+   c "I cannot connect to the internet"
+   ```
+   The assistant will provide you with a list of possible causes and recommended steps to troubleshoot the problem.
+
+3. **Interpret log files with assistance**
+
+   Locate a relevant log file (e.g., /var/log/messages) in your system and ask the command-line assistant to explain any unusual entries:
+   ```bash
+   c "Explain this entry in the [log_file] log"
+   ```
+   For example:
+   ```bash
+   c "Explain this entry in the /var/log/messages log"
+   ```
+
+4. **Seek recommendations for system enhancements**
+
+   Inquire about possible improvements or optimizations for your RHEL environment:
+   ```bash
+   c "Recommend ways to optimize performance on RHEL"
+   ```
+   The command-line assistant will provide actionable suggestions based on available Red Hat knowledge.
+
+5. **Access and use Knowledge Centered Service (KCS) articles**
+
+   Ask the command-line assistant to direct you to relevant KCS articles that might help resolve an issue:
+   ```bash
+   c "Find KCS articles related to [issue]"
+   ```
+   For example:
+   ```bash
+   c "Find KCS articles related to booting into a different kernel"
+   ```
+
+6. **Submit feedback about assistant responses**
+
+   After interacting with the command-line assistant, provide feedback on its performance and response quality:
+   ```bash
+   Submit feedback for this interaction
+   ```
+   This will help improve the AI model over time.
+
+Throughout these exercises, remember to carefully review any suggestions provided by the command-line assistant before applying them, as it's essential to ensure accuracy and suitability for your specific environment. The hands-on experience gained from completing these tasks will prepare you to effectively leverage the RHEL Lightspeed-powered command-line assistant in real-world scenarios.

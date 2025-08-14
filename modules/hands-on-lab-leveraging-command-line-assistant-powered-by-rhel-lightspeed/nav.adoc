@@ -1,0 +1,4 @@
+* xref:hands-on-lab-leveraging-command-line-assistant-powered-by-rhel-lightspeed.adoc[]
+** xref:setting-up-and-configuring-the-command-line-assistant-within-rhel-environment.adoc[]
+** xref:performing-practical-exercises-to-interact-with-the-assistant-for-various-system-tasks.adoc[]
+** xref:troubleshooting-real-world-issues-using-ai-driven-recommendations-from-the-assistant.adoc[]

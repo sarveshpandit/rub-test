@@ -1,0 +1,51 @@
+#  Implementing interactive workflows to solve issues with AI-driven insights
+
+=== Implementing Interactive Workflows to Solve Issues with AI-Driven Insights ===
+
+With RHEL Lightspeed's intelligent functionalities, you can implement interactive workflows to effectively diagnose and resolve system issues using AI-driven insights. This approach streamlines the troubleshooting process by guiding you through a series of informed steps, leveraging extensive Red Hat knowledge from various resources. Here’s how to utilize this powerful functionality:
+
+1. **Understanding the Workflow:**
+   Interactive workflows guide users through a sequence of actions and decisions tailored for specific issues or configurations. They rely on RHEL Lightspeed's vast knowledge base, integrating KCS articles, official documentation, and other relevant resources. The assistant proposes steps while considering your unique system context.
+
+2. **Initiating an Interactive Workflow:**
+   To start a workflow, use the command-line interface (CLI) with the `c` command followed by the desired interaction, for example:
+
+   ```
+   $ c "Help me troubleshoot [specific issue]"
+   ```
+
+   Replace `[specific issue]` with your RHEL problem description. The assistant will analyze your input and propose an appropriate interactive workflow if available.
+
+3. **Following AI-Driven Steps:**
+   Once the workflow is initiated, follow the on-screen instructions provided by the command-line assistant. It might request system information, run diagnostic commands, or suggest configuration changes based on best practices from Red Hat's knowledge base.
+
+   For instance, if troubleshooting a service issue:
+
+   ```
+   $ c "Help me troubleshoot sshd service problems"
+   The assistant may propose:
+      1. Check the status of sshd service
+         > systemctl status sshd
+      2. Examine logs for relevant error messages
+         > journalctl -u sshd | tail -n 30
+      3. Review firewall rules
+         > firewall-cmd --list-all --zone=public
+   ```
+
+4. **Analyzing AI Insights:**
+   After executing each suggested command, the assistant evaluates the output and provides insights or further instructions. You can ask for clarifications about error messages or suggestive actions using natural language queries. For example:
+
+   ```
+   $ journalctl -u sshd | tail -n 30
+   Assistance: The log shows repeated failed login attempts...
+   Suggestion: Check for brute force attacks and consider implementing rate limiting.
+   ```
+
+5. **Iterating Through Workflows:**
+   Continue following the assistant's guidance, iterating through suggested steps until the issue is resolved or further investigation is needed. Remember to utilize the `-w` option when specifying commands to include previous command outputs for context:
+
+   ```
+   $ systemctl status sshd -w 1
+   ```
+
+By implementing interactive workflows powered by RHEL Lightspeed's AI capabilities, you enhance your troubleshooting efficiency and ensure informed, best-practice driven solutions. This method is beneficial for both beginners seeking to learn the ropes of RHEL administration and experienced users desiring a more streamlined approach to problem resolution.

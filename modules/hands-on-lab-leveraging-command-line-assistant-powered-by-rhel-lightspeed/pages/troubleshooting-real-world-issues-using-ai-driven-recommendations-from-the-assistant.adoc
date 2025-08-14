@@ -1,0 +1,25 @@
+#  Troubleshooting real-world issues using AI-driven recommendations from the assistant
+
+== Troubleshooting Real-World Issues Using AI-Driven Recommendations From the Assistant
+
+The command-line assistant powered by RHEL Lightspeed is an invaluable tool for addressing real-world issues in a Red Hat Enterprise Linux (RHEL) environment. By leveraging artificial intelligence, this assistant can provide you with actionable recommendations to diagnose and resolve various system problems efficiently. Here’s how you can utilize it:
+
+1. **Formulate your problem**: Clearly state the issue or question you're facing with RHEL in a concise manner. For example, if you're unable to access your server via SSH, ask "I cannot access my server with SSH. Can you give me a list of things to troubleshoot?"
+
+2. **Interact with the assistant**: Use the command `c` followed by your question to get AI-driven recommendations from the command-line assistant:
+
+   ```
+   $ c "I cannot access my server with SSH. Can you give me a list of things to troubleshoot?"
+   ```
+
+3. **Analyze provided suggestions**: The assistant will analyze your query and present potential solutions, steps to follow, or relevant documentation links based on its knowledge base, which includes Red Hat Knowledge Centered Service (KCS) articles and RHEL official documentation.
+
+   For instance, the assistant might suggest checking firewall rules, reviewing SSHD service status, examining log files like `/var/log/secure`, or verifying SELinux settings.
+
+4. **Follow recommended steps**: Implement the suggested troubleshooting steps in your system environment. Ensure you have proper permissions and are working in a controlled manner to prevent unintended consequences.
+
+5. **Iterate if necessary**: If initial recommendations don't resolve the issue, re-engage the assistant with updated information or further questions to narrow down possible causes. For example, you might ask "After checking firewall rules and service status, I still can't SSH into my server. Can you recommend what could be causing this problem?"
+
+6. **Document your process**: Keep track of the steps taken, the recommendations provided by the assistant, and any changes made to your system configuration or environment for future reference or audits.
+
+In summary, harnessing the command-line assistant powered by RHEL Lightspeed allows you to efficiently troubleshoot real-world issues in your RHEL systems with AI-driven insights and guidance. By following a structured approach to interact with the assistant and meticulously documenting each step, you can significantly improve your ability to diagnose and resolve problems in a timely manner.

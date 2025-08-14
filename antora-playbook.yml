@@ -1,6 +1,6 @@
 site:
-  title: FIXME Course Title
-  start_page: REPLACEREPONAME::index.adoc
+  title:  Introduction to RHEL Lightspeed
+  start_page: rub-test::index.adoc
 
 content:
   sources:
